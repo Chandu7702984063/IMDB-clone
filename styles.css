@@ -1,0 +1,120 @@
+/* Body and Background */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Search Input */
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+/* Suggestions Container */
+#suggestions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Movie Suggestions */
+.suggestion {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.suggestion h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.suggestion button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.suggestion button:hover {
+    background-color: #0056b3;
+}
+
+/* Favorite Movies List */
+#favoriteMovies {
+    list-style: none;
+    padding: 0;
+}
+
+#favoriteMovies li {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#favoriteMovies li button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#favoriteMovies li button:hover {
+    background-color: #cc0000;
+}
+
+/* Movie Details Page */
+#movieDetails {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+}
+
+#movieDetails h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+#movieDetails img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+#movieDetails p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    margin: 10px 0;
+}
